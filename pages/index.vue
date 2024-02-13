@@ -7,5 +7,15 @@
         <Failed text="Password & Email are wrong!" />
 
         <Input placeholder="Email Address" />
+
+        <Select>
+            <option value="" selected>Please select a country!</option>
+            <option value="PK">Pakistan</option>
+            <option value="UK">United Kingdom</option>
+            <option value="US">United States</option>
+            <option value="DE">Germany</option>
+        </Select>
+
+        <Textarea placeholder="Write message here..." />
     </section>
 </template>
