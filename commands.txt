@@ -1,2 +1,3 @@
 npm install --save-dev @nuxtjs/tailwindcss nuxt-icon
 npm install -D postcss autoprefixer
+npm install @vueup/vue-quill --save

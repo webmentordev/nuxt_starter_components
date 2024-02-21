@@ -16,6 +16,14 @@
             <option value="DE">Germany</option>
         </Select>
 
+        <ClientOnly>
+            <Quill id="body" v-model:content="body"/>
+        </ClientOnly>
+
         <Textarea placeholder="Write message here..." />
     </section>
 </template>
+
+<script setup>
+    const body = ref("");
+</script>
