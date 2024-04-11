@@ -21,8 +21,8 @@
                 <Error v-if="errors.password" :text="errors.password" />
             </div>
             <div class="w-full mb-3">
-                <Label for="password" text="Confirm password" />
-                <Input id="password" type="password" v-model="confirm_password" />
+                <Label for="confirm_password" text="Confirm password" />
+                <Input id="confirm_password" type="password" v-model="confirm_password" />
                 <Error v-if="errors.confirm_password" :text="errors.confirm_password" />
             </div>
             <Button text="Signup" />
